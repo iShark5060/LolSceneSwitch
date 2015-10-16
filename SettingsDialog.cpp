@@ -6,7 +6,7 @@
 #include "MapsDialog.h"
 #include "Log.h"
 
-
+#pragma comment(lib, "shell32.lib")
 
 bool IsValidLoLPath(TCHAR const * path)
 {
